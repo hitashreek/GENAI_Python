@@ -24,7 +24,8 @@ if query:
     st.chat_message("ai").markdown(res.content)
     st.session_state.messages.append({"role":"ai", "content":res.content})
 
-
+# command to run this app
+# py -m streamlit run 1_qna_bot.py   
 
 
 # while True:
