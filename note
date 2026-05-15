@@ -1,3 +1,6 @@
 python -m venv env 
 source env\Scripts\activate
 python -m pip install -r requirements.txt
+
+# command to run this app
+# py -m streamlit run 1_qna_bot.py   
